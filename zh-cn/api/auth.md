@@ -7,7 +7,7 @@
 #### 登录系统
 
 ```bash 
-curl https://cn.steedos.com/steedos/api/login -d "email=test@hotoa.com&password=password"
+curl -POST https://cn.steedos.com/steedos/api/login -d "email=test@hotoa.com&password=password"
 ```
 
 返回如下
